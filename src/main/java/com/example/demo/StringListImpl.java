@@ -112,7 +112,7 @@ public class StringListImpl implements StringList {
 
     @Override
     public int lastIndexOf(String item) {
-        for (int i = size-1 ; i >=0 ; i++) {
+        for (int i = size-1 ; i >=0 ; i--) {
             if(storage[i].equals(item)){
                 return i;
             }
