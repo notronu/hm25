@@ -1,6 +1,7 @@
 package com.example.demo;
 
 public class NullItemException extends RuntimeException {
+
     public NullItemException() {
     }
 
@@ -8,9 +9,11 @@ public class NullItemException extends RuntimeException {
         super(message);
     }
 
+
     public NullItemException(String message, Throwable cause) {
         super(message, cause);
     }
+
 
     public NullItemException(Throwable cause) {
         super(cause);
